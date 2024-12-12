@@ -66,6 +66,10 @@ form{
 
 }
 
+.poem strong {
+    color: burlywood;
+}
+
 footer{
     text-align: center;
     font-size: 13px;
