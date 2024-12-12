@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css"/>
     <title>AI  German Poem Generator</title>
 </head>
@@ -12,7 +13,7 @@
     <h1>Welcome to the German  AI poem generator</h1>
     </header>
     <main>
-        <form>
+        <form id="poem-generator-form">
             <input type="text"
                    placeholder="Enter the topic of the German poem"
                    autofocus
@@ -23,13 +24,9 @@
             <input type="submit" class="submit-button"/>
             
         </form>
-        <div class="poem">
-            Frühling läßt sein blaues Band
-            <br />
-            wieder flattern durch die Lüfte;
-            <br />
-
-        </div>
+        
+        <div class="poem" id="poem"></div>
+        
 
 
 
